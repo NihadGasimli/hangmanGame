@@ -1,0 +1,138 @@
+body {
+  background-color: blanchedalmond;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.altXett {
+  display: flex;
+  gap: 40px;
+  font-size: 35px;
+  margin-top: -150px;
+  top: 700px;
+  width: 650px;
+  justify-content: center;
+}
+
+.word {
+  display: flex;
+  gap: 40px;
+  font-size: 35px;
+  width: 650px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 53%;
+  gap: 10px;
+}
+
+.span {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.imageDiv {
+  margin-top: 40px;
+  position: relative;
+}
+
+.image {
+  width: 210px;
+  border: 5px solid black;
+  border-radius: 12px;
+}
+
+.wordAndLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1Word {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: none;
+  font-size: 35px;
+  margin-bottom: -70px;
+}
+
+.h1Lines {
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.popUp {
+  background-color: rgba(54, 186, 25, 0.8);
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  display: none;
+}
+
+.popUp2 {
+  background-color: rgba(209, 75, 22, 0.8);
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  display: none;
+}
+
+.counterText {
+  margin-top: -20px;
+  margin-bottom: 67px;
+  font-size: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width:768px) {
+  .altXett {
+    font-size: 20px;
+    margin-left: auto;
+    gap: 20px;
+  }
+
+  .game {
+    background-color: yellow;
+  }
+
+  .h1Word {
+    font-size: 20px;
+    margin-bottom: -40px;
+  }
+
+  .buttons {
+    width: 70%;
+    background-color: red;
+  }
+
+}
