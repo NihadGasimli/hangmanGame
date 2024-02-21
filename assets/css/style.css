@@ -53,8 +53,7 @@ body {
 }
 
 .imageDiv {
-  margin-top: 40px;
-  position: relative;
+  margin-bottom: 20px;
 }
 
 .image {
@@ -121,8 +120,8 @@ body {
     gap: 20px;
   }
 
-  .game {
-    background-color: yellow;
+  .imageDiv{
+    margin-bottom: 0px;
   }
 
   .h1Word {
@@ -131,8 +130,11 @@ body {
   }
 
   .buttons {
-    width: 70%;
-    background-color: red;
+    width: 85%;
+  }
+  .span{
+    font-size: 20px;
+    width: 30px;
   }
 
 }
