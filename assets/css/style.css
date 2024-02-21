@@ -50,6 +50,15 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
   background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.span:hover {
+  border-color: gray;
+  color: gray;
+  transition: 0.2s;
 }
 
 .imageDiv {
@@ -92,6 +101,86 @@ body {
   position: absolute;
   top: 20%;
   display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.restart {
+  padding: 10px 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+.restart:hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.restart2 {
+  padding: 10px 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+.restart2:hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.exit {
+  padding: 10px 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0px;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+.exit:hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.exit2 {
+  padding: 10px 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0px;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+.exit2:hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.2s;
 }
 
 .popUp2 {
@@ -104,6 +193,8 @@ body {
   position: absolute;
   top: 20%;
   display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .counterText {
@@ -120,7 +211,7 @@ body {
     gap: 20px;
   }
 
-  .imageDiv{
+  .imageDiv {
     margin-bottom: 0px;
   }
 
@@ -131,10 +222,16 @@ body {
 
   .buttons {
     width: 85%;
+    margin-left: 30px;
   }
-  .span{
+
+  .span {
     font-size: 20px;
     width: 30px;
   }
 
+  .span:hover {
+    border-color: #000;
+    color: #000;
+  }
 }

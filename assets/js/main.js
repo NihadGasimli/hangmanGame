@@ -79,11 +79,14 @@ function click(e) {
 
         if (counter === 10) {
             document.querySelector(".popUp2").style.display = "flex";
-            setTimeout(function () {
-                document.querySelector(".popUp2").style.display = "none";
-            }, 2000)
             clear();
-            start();
+            document.querySelector(".restart2").onclick = function () {
+                document.querySelector(".popUp2").style.display = "none";
+                start();
+            }
+            document.querySelector(".exit2").onclick = function () {
+                window.close();
+            }
         }
     }
     else {
@@ -91,11 +94,14 @@ function click(e) {
         incorrects = false;
         if (array.length === word.length) {
             document.querySelector(".popUp").style.display = "flex";
-            setTimeout(function () {
+            clear();
+            document.querySelector(".restart").addEventListener("click", function () {
                 document.querySelector(".popUp").style.display = "none";
-            }, 2000);
-            clear()
-            start();
+                start();
+            })
+            document.querySelector(".exit").addEventListener("click", function () {
+                window.close();
+            })
         }
     }
 
@@ -122,4 +128,3 @@ function clear() {
         catch { }
     }
 }
-
